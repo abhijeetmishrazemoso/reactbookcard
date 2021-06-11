@@ -1,11 +1,11 @@
 
 import './App.css';
-import BookCard from './BookCard.js'
+import BookCard from './components/organisms/BookCard.js';
 
 function App() {
   return (
     <div className="App">
-     <BookCard />
+     <BookCard/>
     </div>
   )
 }
